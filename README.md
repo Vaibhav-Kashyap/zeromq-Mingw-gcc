@@ -13,8 +13,3 @@ Kind Note: Previous versions(~5.1.0) of Mingw seems to fail the zeromq build, th
 
 > **Tip:** Make sure to provide runtime lib path to your application (-lrt).
 
-```mermaid
-graph LR
-A[ZeroMQ] --> B((Cmake+ Mingw 6.4.0))
-B --> D{ZeroMQ win32}
-```
